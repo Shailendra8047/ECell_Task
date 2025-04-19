@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startups from IIT Kanpur</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+    }
+    header {
+      background-color: #000000;
+      color: rgb(119, 76, 203);
+      text-align: center;
+      padding: 2rem 1rem;
+      text-shadow:0px 0px 8px rgb(146, 92, 164) ;
+      height: 6rem;
+      
+    }
+    
+    .subtitle {
+      font-style: italic;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: white;
+
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      
+    }
+    .card {
+      background-color: rgb(0, 0, 0);
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 2px solid rgb(43, 43, 43);
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgb(119, 76, 203);
+    }
+    .logo {
+      width: 100%;
+      height: 150px;
+      background-color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color:white;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .startup-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+      color: rgb(119, 76, 203);
+    }
+    .tagline {
+      font-size: 0.95rem;
+      color:rgb(211, 208, 208);
+      margin-bottom: 0.5rem;
+    }
+    .founder {
+      font-size: 0.85rem;
+      color: #868686;
+      margin-bottom: 0.8rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: rgb(75, 40, 145);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    .btn:hover{
+      background-color: rgb(74, 29, 171);
+      box-shadow: 0px 0px 12px rgb(104, 104, 104);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Startups from IIT Kanpur</h1>
+    <p class="subtitle">Innovating the Future, One Idea at a Time</p>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="logo"><img src="noccarc.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">Noccarc</div>
+      <div class="tagline">Breathing Innovation</div>
+      <div class="founder">Founder: Harshit Rathore</div>
+      <a href="https://www.noccarc.com/" class="btn">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="logo"><img src="phool.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">Phool</div>
+      <div class="tagline">Sacred Waste to Scents</div>
+      <div class="founder">Founder: Ankit Agarwal</div>
+      <a href="https://phool.co/" class="btn">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="logo"><img src="c3s.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">C3S</div>
+      <div class="tagline">Smart Satellites for a Smart Nation</div>
+      <div class="founder">Founder: Team C3S</div>
+      <a href="https://c3s.hu/about-us/" class="btn">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="logo"><img src="CURADEV.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">Curadev</div>
+      <div class="tagline">Reimagining Drug Discovery</div>
+      <div class="founder">Founder: Dr. Manish Gupta</div>
+      <a href="https://www.curadev.in/" class="btn">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="logo"><img src="visionbot.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">VisionBot</div>
+      <div class="tagline">AI in Motion</div>
+      <div class="founder">Founder: Rachit Jain</div>
+      <a href="https://visionbot.com/" class="btn">Learn More</a>
+    </div>
+    <div class="card">
+      <div class="logo"><img src="Krishihub.png" alt="" height="150px" width="100%"></div>
+      <div class="startup-name">KrishiHub</div>
+      <div class="tagline">Empowering Farmers with Data</div>
+      <div class="founder">Founder: Harshvardhan</div>
+      <a href="https://krishihub.com/" class="btn">Learn More</a>
+    </div>
+  </div>
+</body>
+</html>
